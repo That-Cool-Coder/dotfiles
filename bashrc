@@ -2,7 +2,11 @@
 # ~/.bashrc
 #
 
-export nalton="ssh thatcoolcoder@naltonsoftware.com"
+nalton()
+{
+        ssh thatcoolcoder@naltonsoftware.com
+}
+export -f nalton
 gacp()
 {
     git add .
@@ -16,6 +20,8 @@ hop()
     ls
 }
 export -f hop
+
+# Below here is default Manjaro bashrc
 
 export HISTCONTROL=ignoreboth:erasedups
 
