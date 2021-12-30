@@ -1,0 +1,25 @@
+{
+    "editor.bracketPairColorization.enabled": true,
+    "editor.matchBrackets":"always",
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground1": "#FFD900",
+        "editorBracketHighlight.foreground2": "#D96FD5",
+        "editorBracketHighlight.foreground3": "#87CEFA",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+    },
+    "workbench.colorTheme": "Visual Studio Light",
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "editor.wordWrap": "on",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.guides.bracketPairs": true,
+    "bracketPairColorizer.depreciation-notice": false
+}
