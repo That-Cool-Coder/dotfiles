@@ -1,6 +1,6 @@
 # dotfiles
 
-Config and setup stuff for Arch systems
+Config and setup stuff for Arch systems. I have no idea if this is a "proper" dotfiles but it works.
 
 Run stuff in `scripts/` from the root directory of this repo.
 
