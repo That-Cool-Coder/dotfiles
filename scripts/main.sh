@@ -1,3 +1,3 @@
 chsh -s /bin/bash
-sh install_all.sh
-sh load.sh
+sh scripts/install_all.sh
+sh scripts/load.sh

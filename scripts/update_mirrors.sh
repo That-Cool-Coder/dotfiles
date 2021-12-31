@@ -1,0 +1,1 @@
+sudo pacman-mirrors --country Australia,New_Zealand,India,China,Indonesia

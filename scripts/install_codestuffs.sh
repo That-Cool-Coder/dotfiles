@@ -1,2 +1,2 @@
-sudo pacman -S code
-yay -S godot-mono-bin
+sudo pacman -S code nodejs --needed
+yay -S godot-mono-bin --needed

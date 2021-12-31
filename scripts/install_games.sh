@@ -1,1 +1,1 @@
-sudo pacman -S minetest supertuxkart openttd
+sudo pacman -S minetest supertuxkart openttd --needed
