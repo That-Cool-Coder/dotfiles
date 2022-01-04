@@ -21,7 +21,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][1][Applets][2][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][1][Applets][2][Configuration][ConfigDialog]
 DialogHeight=558
@@ -64,7 +64,7 @@ immutability=1
 plugin=eu.makg.plasma.display-profile-switcher
 
 [Containments][1][Applets][25][Configuration]
-PreloadWeight=59
+PreloadWeight=43
 
 [Containments][1][Applets][25][Configuration][ConfigDialog]
 DialogHeight=540
@@ -92,7 +92,7 @@ immutability=1
 plugin=org.kde.thermalMonitor
 
 [Containments][1][Applets][30][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][1][Applets][30][Configuration][ConfigDialog]
 DialogHeight=540
@@ -127,7 +127,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][7][Configuration]
-PreloadWeight=94
+PreloadWeight=92
 SystrayContainmentId=8
 
 [Containments][1][Applets][7][Configuration][Containments][8]
@@ -223,7 +223,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][8][Applets][10][Configuration]
-PreloadWeight=52
+PreloadWeight=36
 
 [Containments][8][Applets][11]
 immutability=1
@@ -294,7 +294,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][20][Configuration]
-PreloadWeight=39
+PreloadWeight=48
 
 [Containments][8][Applets][21]
 immutability=1

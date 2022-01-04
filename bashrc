@@ -20,6 +20,11 @@ hop()
     ls
 }
 export -f hop
+ksl()
+{
+   kill -9 $(pidof sl)
+}
+export -f ksl
 
 # Below here is default Manjaro bashrc
 

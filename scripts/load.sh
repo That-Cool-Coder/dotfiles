@@ -7,4 +7,4 @@ sudo cp code_product.json /usr/lib/code/product.json
 cp kglobalshortcutsrc ~/.config/kglobalshortcutsrc
 cp -r plasmoids ~/.local/share/plasma/
 cp plasma-org.kde.plasma.desktop-appletsrc ~/.config/plasma-org.kde.plasma.desktop-appletsrc
-cp -r ~/ .kde4/
+cp -r .kde4/ ~/
