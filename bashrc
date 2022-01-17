@@ -7,10 +7,16 @@ nalton()
         ssh thatcoolcoder@naltonsoftware.com
 }
 export -f nalton
+gac()
+{
+    git add .
+    git commit -m "$1"
+}
+export -f gac
 gacp()
 {
     git add .
-    git commit -m "$1 [gacp]"
+    git commit -m "$1"
     git push
 }
 export -f gacp
