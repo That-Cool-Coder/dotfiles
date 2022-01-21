@@ -28,9 +28,14 @@ hop()
 export -f hop
 ksl()
 {
-   kill -9 $(pidof sl)
+    kill -9 $(pidof sl)
 }
 export -f ksl
+gcm()
+{
+    git clone https://github.com/ThatCoolCoder/$1
+}
+export -f gcm
 
 # Below here is default Manjaro bashrc
 

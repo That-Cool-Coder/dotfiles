@@ -139,7 +139,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][7][Configuration]
-PreloadWeight=94
+PreloadWeight=86
 SystrayContainmentId=8
 
 [Containments][1][Applets][7][Configuration][Containments][8]
@@ -182,7 +182,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][31][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][31][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Next/contents/images/2560x1440.png
@@ -201,7 +201,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][8][Applets][10][Configuration]
-PreloadWeight=38
+PreloadWeight=30
 
 [Containments][8][Applets][11]
 immutability=1
@@ -272,7 +272,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][20][Configuration]
-PreloadWeight=40
+PreloadWeight=32
 
 [Containments][8][Applets][21]
 immutability=1
@@ -311,4 +311,4 @@ knownItems=org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.pla
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/fgfs-20220120225502.png,0,desktop:/fgfs-20220120225429.png,0,desktop:/fgfs-20220120224849.png,0
+screenMapping=desktop:/fgfs-20220120225502.png,0,desktop:/fgfs-20220120224849.png,0,desktop:/fgfs-20220120225429.png,0
