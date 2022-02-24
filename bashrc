@@ -36,6 +36,15 @@ gcm()
     git clone https://github.com/ThatCoolCoder/$1
 }
 export -f gcm
+limitcpufreq()
+{
+    sudo cpupower frequency-set -u $1Mhz
+}
+export -f limitcpufreq
+cpufreq()
+{
+    cpupower frequency-info
+}
 
 # Below here is default Manjaro bashrc
 
