@@ -1,11 +1,29 @@
 # dotfiles
 
-Config and setup stuff for Arch systems. I have no idea if this is a "proper" dotfiles but it works.
+Config and setup stuff for Arch systems using stow.
 
-Run stuff in `scripts/` from the root directory of this repo.
+`stow <profile>` to load
 
-Note that when updating bashrc you will need to create a new bash session yourself to reflect the changes. 
+`stow -D <profile>` to delete
 
-## Manual things to do:
+## Profiles:
 
-- Change Konsole default shell to Bash (it ignores the user's default shell)
+#### Bash
+
+Just my bashrc
+
+#### Code
+
+This one isn't done with stow because that program can't handle spaces in file names such as `~/.config/Code - OSS/`. Use `code/load.sh` and `code/save.sh`
+
+#### Qtile
+
+Run `scripts/install_qtile.sh` first. Run `sx qtile start` to start qtile, put this in `bash_profile` if you want it to run automatically.
+
+#### Plasma
+
+I haven't tested this one! Kde plasma widgets and theme and whatnot. Might mess up your task bar, rip.
+
+#### Alacritty
+
+Makes it not ugly and not huge
