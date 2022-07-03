@@ -7,6 +7,10 @@ de()
     sx qtile start
 }
 export -f de
+kbd()
+{
+    setxkbmap -layout us,us -variant ,dvorak -option "lv3:rwin_switch,grp:alt_space_toggle,compose:ralt"
+}
 nalton()
 {
     ssh thatcoolcoder@naltonsoftware.com
