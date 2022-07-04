@@ -7,7 +7,7 @@ from libqtile.lazy import lazy
 # programs
 terminal = "alacritty"
 file_manager = "pcmanfm"
-browser = "firefox"
+browser = "chromium"
 launcher = "dmenu_run -nb '#21262e' -fn 'SauceCodePro Nerd Font:size=10' -i -p 'Run: '"
 
 @lazy.function
