@@ -2,6 +2,11 @@
 # ~/.bashrc
 #
 
+brightness()
+{
+    sudo bash -c "echo $1 > /sys/class/backlight/intel_backlight/brightness"
+}
+export -f brightness
 de()
 {
     sx qtile start
