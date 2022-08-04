@@ -1,3 +1,4 @@
-setxkbmap -layout us,us -variant ,dvorak -option "lv3:rwin_switch,grp:alt_space_toggle,compose:ralt"
+
+#setxkbmap -layout us,us -variant ,dvorak -option "lv3:rwin_switch,grp:alt_space_toggle,compose:ralt"
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
