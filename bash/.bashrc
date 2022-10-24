@@ -60,6 +60,8 @@ cpufreq()
     cpupower frequency-info
 }
 
+export PATH=/home/thatcoolcoder/coding/nosper-tty/bin/:$PATH
+
 # Below here is default Manjaro bashrc
 
 export HISTCONTROL=ignoreboth:erasedups

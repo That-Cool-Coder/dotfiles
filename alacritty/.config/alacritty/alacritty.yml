@@ -1,3 +1,4 @@
+draw_bold_text_with_bright_colors: true
 colors:
   bright:
     black: '0x686868'
@@ -5,9 +6,9 @@ colors:
     cyan: '0x54ffff'
     green: '0x54ff54'
     magenta: '0xff54ff'
-    red: '0xff5454'
+    red: '0xe80f0c'
     white: '0xffffff'
-    yellow: '0xffff54'
+    yellow: '0xfcd703'
   normal:
     black: '0x000000'
     blue: '0x1818b2'
@@ -16,7 +17,7 @@ colors:
     magenta: '0xb218b2'
     red: '0xb21818'
     white: '0xb2b2b2'
-    yellow: '0xb26818'
+    yellow: '0xfcd703'
   primary:
     foreground: '0xffffff'
     background: '0x000000'
