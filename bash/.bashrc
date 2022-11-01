@@ -60,7 +60,7 @@ cpufreq()
     cpupower frequency-info
 }
 
-export PATH=/home/thatcoolcoder/coding/nosper-tty/bin/:$PATH
+export PATH=/home/thatcoolcoder/coding/nosper-tty/bin/:/home/thatcoolcoder/coding/atc/target/release/:$PATH
 
 # Below here is default Manjaro bashrc
 

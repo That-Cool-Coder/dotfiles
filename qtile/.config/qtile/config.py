@@ -188,17 +188,17 @@ widgets = [
     widget.WindowName(),
     widget.CPU(
         format="🖥 {load_percent}%",
-        mouse_callbacks = {"Button1": lazy.spawn(terminal + " -e btop")},
+        mouse_callbacks = {"Button1": lazy.spawn(terminal + " -e htop")},
     ),
     widget.ThermalSensor(
         fmt = "🌡{}",
         tag_sensor = "Core 0",
         foreground = widget_defaults["foreground"],
-        mouse_callbacks = {"Button1": lazy.spawn(terminal + " -e btop")},
+        mouse_callbacks = {"Button1": lazy.spawn(terminal + " -e htop")},
     ),
     widget.Memory(
         format="🧠 {MemPercent}% {MemUsed:.0f}M",         
-        mouse_callbacks = {"Button1": lazy.spawn(terminal + " -e btop")}
+        mouse_callbacks = {"Button1": lazy.spawn(terminal + " -e htop")}
     ),
     widget.Net(format = '🌐{down}⬇{up}⬆'),
 ]
