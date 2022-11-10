@@ -221,7 +221,10 @@ widgets += [
         display_format = "📦{updates} ",
         execute = terminal + " -e sudo pacman -Syu",
     ),
-    widget.Clock(format="🕛 %H:%M %a %d %b"),
+    widget.Clock(
+        format="🕛 %H:%M %a %d %b",
+        mouse_callbacks = {"Button1": lazy.spawn(terminal + " --hold -e cal")},
+    ),
     widget.Spacer(8),
     widget.Systray(icons_size=16, padding = 0),
 ]
