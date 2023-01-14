@@ -210,7 +210,7 @@ if has_battery:
         discharge_char="",
         charge_char="+",
         notify_below=10, 
-        format="🔋{char}{percent:2.0%} {hour:d}:{min:02d}",
+        format="🔋{char}{percent:2.0%} {watt:.2f} W {hour:d}:{min:02d}",
         background=widget_defaults["background"],
     ),
 
