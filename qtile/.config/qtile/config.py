@@ -98,10 +98,10 @@ keys = [
     Key([mod, "shift"], "f", lazy.window.toggle_fullscreen(), desc="Toggle fullscreen"),
     Key([], "F11", lazy.window.toggle_fullscreen(), desc="Toggle fullscreen"),
 
-    Key([mod, "shift"], "Up", lazy.spawn("xrandr --output eDP1 --rotate normal"), desc="Rotate screen normal"),
-    Key([mod, "shift"], "Down", lazy.spawn("xrandr --output eDP1 --rotate inverted"), desc="Rotate screen normal"),
-    Key([mod, "shift"], "Left", lazy.spawn("xrandr --output eDP1 --rotate left"), desc="Rotate screen normal"),
-    Key([mod, "shift"], "Right", lazy.spawn("xrandr --output eDP1 --rotate right"), desc="Rotate screen normal"),
+    Key([mod, "shift"], "Up", lazy.spawn("xrandr --output eDP-1 --rotate normal"), desc="Rotate screen normal"),
+    Key([mod, "shift"], "Down", lazy.spawn("xrandr --output eDP-1 --rotate inverted"), desc="Rotate screen normal"),
+    Key([mod, "shift"], "Left", lazy.spawn("xrandr --output eDP-1 --rotate left"), desc="Rotate screen normal"),
+    Key([mod, "shift"], "Right", lazy.spawn("xrandr --output eDP-1 --rotate right"), desc="Rotate screen normal"),
 
     # Media keys
     Key([], "XF86AudioPlay", lazy.spawn("playerctl play-pause")),
@@ -223,7 +223,7 @@ widgets += [
     ),
     widget.Clock(
         format="🕛 %H:%M %a %d %b",
-        mouse_callbacks = {"Button1": lazy.spawn(terminal + " --hold -e cal")},
+        mouse_callbacks = {"Button1": lazy.spawn(terminal + " --hold -e cal -m3")},
     ),
     widget.Spacer(8),
     widget.Systray(icons_size=16, padding = 0),
