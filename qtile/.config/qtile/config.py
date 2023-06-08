@@ -5,7 +5,7 @@ from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 
 # programs
-terminal = "alacritty"
+terminal = "alacritty -e tmux"
 file_manager = "pcmanfm"
 browser = "chromium"
 launcher = "dmenu_run -nb '#21262e' -fn 'SauceCodePro Nerd Font:size=10' -i -p 'Run: '"

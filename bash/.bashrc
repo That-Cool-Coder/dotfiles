@@ -2,11 +2,17 @@
 # ~/.bashrc
 #
 
-brightness()
+brt()
 {
-    sudo bash -c "echo $1 > /sys/class/backlight/intel_backlight/brightness"
+    sudo /bin/tccbrightness $1
 }
-export -f brightness
+export -f brt
+qm()
+{
+    #alacritty --hold -e nosper-tty "$@"
+    nosper-tty $@
+}
+export -f qm
 de()
 {
     sx qtile start
@@ -18,7 +24,7 @@ kbd()
 }
 nalton()
 {
-    ssh thatcoolcoder@naltonsoftware.com
+    env TERM=xterm-256color ssh thatcoolcoder@naltonsoftware.com
 }
 export -f nalton
 gac()
