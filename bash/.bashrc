@@ -66,7 +66,7 @@ cpufreq()
     cpupower frequency-info
 }
 
-export PATH=/home/thatcoolcoder/coding/nosper-tty/bin/:/home/thatcoolcoder/coding/atc/target/release/:$PATH
+export PATH=/home/thatcoolcoder/coding/nosper-tty/bin/:/home/thatcoolcoder/coding/atc/target/release/:/home/thatcoolcoder/.local/bin/:$PATH
 
 source /home/thatcoolcoder/.bashrc.local
 
